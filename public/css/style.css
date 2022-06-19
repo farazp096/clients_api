@@ -1,0 +1,56 @@
+ /*//////////////////////////////////// sidebar ///////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+body{
+    background: #f5f6fa;
+    height: 100%;
+}
+
+.top_navbar{
+background-color: rgb(8, 7, 7);
+color:white;
+padding: 0.5rem;
+margin: 0 0 3rem 0;
+display: block;
+}
+.top_navbar .content a {
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: inline-block;
+}
+
+.content{
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: 500;
+}
+.content .form-label{
+    color: rgb(135, 133, 133);
+}
+
+.top_navbar .content .clients{
+    color: rgb(135, 133, 133);
+}
+
+.top_navbar .content .clients:hover{
+    color: white;
+}
+
+#register h2{
+    text-align: center;
+}
+#register h5{
+    text-align: center;
+}
+
