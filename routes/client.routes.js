@@ -16,13 +16,5 @@ router.get("/getAllClients",showAllClients)
 
 router.get("/client/:id",showClient)
 
-router.patch("/updateClient/:id",(req,res) => {
- 
-})
-
-router.patch("/deleteClient/:id",(req,res) => {
- 
-})
-
 
 module.exports = router;
